@@ -9,7 +9,7 @@
         <form action="badwords.php" method="GET">
             <hr>
             <label for="textInput">Testo</label>
-            <textarea name="testoDaCensurare" id="textInput" placeholder="Scrivi qui!"></textarea>
+            <textarea name="toBeCensured" id="textInput" placeholder="Scrivi qui!"></textarea>
             <br>
             <label for="badword">Parola da censurare</label>
             <input type="text" name="badword" id="badword" placeholder="Parola da censurare...">
