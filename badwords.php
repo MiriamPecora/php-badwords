@@ -4,7 +4,7 @@
 
     $badword = $_GET['badword'];
     
-    $censured_text = str_replace($badword, '***', $to_be_censured);
+    $censured_text = str_ireplace($badword, '***', $to_be_censured);
     $censured_text_length = strlen($censured_text);
 ?>
 
